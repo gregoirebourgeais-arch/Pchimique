@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import CoverPage from "@/components/booklet/CoverPage";
@@ -26,17 +26,18 @@ const pages = [
 export default function TrainingBooklet() {
   const { pageId } = useParams();
   const navigate = useNavigate();
-  const [currentPageIndex, setCurrentPageIndex] = useState(0);
   const [direction, setDirection] = useState(1);
-
-  useEffect(() => {
+  
+  // Calculate initial page index from URL parameter
+  const initialPageIndex = useMemo(() => {
     if (pageId) {
       const index = pages.findIndex((p) => p.id === pageId);
-      if (index !== -1) {
-        setCurrentPageIndex(index);
-      }
+      return index !== -1 ? index : 0;
     }
+    return 0;
   }, [pageId]);
+
+  const [currentPageIndex, setCurrentPageIndex] = useState(initialPageIndex);
 
   const goToPage = (index) => {
     if (index >= 0 && index < pages.length) {
