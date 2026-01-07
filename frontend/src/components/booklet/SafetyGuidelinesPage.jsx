@@ -147,7 +147,7 @@ export default function SafetyGuidelinesPage() {
         <div className="p-4 rounded-lg bg-destructive/10 border border-destructive/20">
           <h3 className="font-semibold text-foreground mb-2 flex items-center gap-2">
             <AlertTriangle className="w-4 h-4 text-destructive" />
-            En cas d'accident
+            En cas d&apos;accident
           </h3>
           <p className="text-sm text-foreground">
             Contact avec la peau ou les yeux : <strong>rincer immédiatement à l&apos;eau pendant 15 minutes</strong>. 
