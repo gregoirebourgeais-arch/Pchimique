@@ -133,7 +133,7 @@ export default function DisinfectantsPage() {
         <div className="flex items-start gap-3 p-4 rounded-lg bg-primary/5 border border-primary/20">
           <AlertTriangle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
           <p className="text-sm text-foreground">
-            <strong>Rappel :</strong> La désinfection n'est efficace que sur des surfaces 
+            <strong>Rappel :</strong> La désinfection n&apos;est efficace que sur des surfaces 
             préalablement nettoyées. Respectez toujours le temps de contact indiqué.
           </p>
         </div>

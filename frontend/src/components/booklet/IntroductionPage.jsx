@@ -34,9 +34,9 @@ export default function IntroductionPage() {
             <div className="flex gap-4">
               <ShieldCheck className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-semibold text-foreground mb-2">L'importance de l'hygiène</h3>
+                <h3 className="font-semibold text-foreground mb-2">L&apos;importance de l&apos;hygiène</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Dans l'industrie agroalimentaire, le nettoyage et la désinfection sont 
+                  Dans l&apos;industrie agroalimentaire, le nettoyage et la désinfection sont 
                   des étapes critiques pour garantir la sécurité des produits alimentaires 
                   et la santé des consommateurs.
                 </p>
@@ -83,7 +83,7 @@ export default function IntroductionPage() {
           <CardContent className="py-5 px-5">
             <div className="flex items-center gap-2 mb-4">
               <AlertCircle className="w-5 h-5 text-accent" />
-              <h3 className="font-semibold text-foreground">Comprendre l'échelle du pH</h3>
+              <h3 className="font-semibold text-foreground">Comprendre l&apos;échelle du pH</h3>
             </div>
             
             {/* pH Scale */}

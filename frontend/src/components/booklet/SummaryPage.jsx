@@ -120,9 +120,9 @@ export default function SummaryPage({ onNavigate }) {
       >
         <Card className="bg-primary/5 border-primary/20">
           <CardContent className="py-5 px-5 text-center">
-            <p className="text-sm text-foreground font-medium mb-1">Règle d'Or</p>
+            <p className="text-sm text-foreground font-medium mb-1">Règle d&apos;Or</p>
             <p className="text-base sm:text-lg font-display font-semibold text-primary">
-              "Nettoyer avant de désinfecter, rincer entre chaque étape"
+              &ldquo;Nettoyer avant de désinfecter, rincer entre chaque étape&rdquo;
             </p>
           </CardContent>
         </Card>

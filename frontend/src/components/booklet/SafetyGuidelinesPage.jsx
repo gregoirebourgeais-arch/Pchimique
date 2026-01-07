@@ -150,7 +150,7 @@ export default function SafetyGuidelinesPage() {
             En cas d'accident
           </h3>
           <p className="text-sm text-foreground">
-            Contact avec la peau ou les yeux : <strong>rincer immédiatement à l'eau pendant 15 minutes</strong>. 
+            Contact avec la peau ou les yeux : <strong>rincer immédiatement à l&apos;eau pendant 15 minutes</strong>. 
             Consulter un médecin. Avoir les FDS à disposition.
           </p>
         </div>
