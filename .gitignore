@@ -31,3 +31,7 @@ venv/
 .env
 .env.*
 !.env.example
+-e 
+# Environment files
+*.env
+*.env.*
